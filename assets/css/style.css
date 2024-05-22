@@ -12,7 +12,8 @@
 /*    #7e5230  */
 
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
@@ -125,6 +126,7 @@ h6 {
   transition: all 0.5s;
   color: #fff;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 #topbar .contact-info i {
@@ -142,6 +144,8 @@ h6 {
   line-height: 0;
   transition: 0.3s;
   transition: 0.3s;
+  /* font-size: 16px; */
+  font-weight: bold;
 }
 
 #topbar .contact-info i a:hover {
@@ -707,6 +711,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  width:100%;
 }
 
 .featured-services .icon-box::before {
@@ -729,24 +734,32 @@ section {
 
 .featured-services .icon {
   margin-bottom: 15px;
+ 
+  width: fit-content;
+  margin: auto;
 }
 
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #106eea;
+  color: #7e5230;;
   transition: all 0.3s ease-in-out;
+  width: fit-content;
+  /* margin: auto; */
 }
 
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  
 }
 
 .featured-services .title a {
-  color: #111;
-  /* color: #7e5230; */
+  color: black;
+  /* color: ; */
 }
 
 .featured-services .description {
@@ -1268,7 +1281,7 @@ section {
   overflow: hidden;
   border-radius: 4px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+  box-shadow: 0px 2px 15px rgba(34, 36, 37, 0.15);
 }
 
 .team .member .member-img {
@@ -1310,8 +1323,9 @@ section {
 
 .team .member .member-info {
   padding: 25px 15px;
-  background-color: #7e5230;
-  color: #fff;
+  /* background-color: #7e5230; */
+  background-color: #e0d4af;  
+  color: #2b2a2a;
 }
 
 .team .member .member-info h4 {
@@ -1543,8 +1557,9 @@ section {
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 .contact .php-email-form {
@@ -1726,11 +1741,12 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   color: #777777;
+  font-weight: bold;
 }
 
 #footer .footer-top h4 {
@@ -1823,3 +1839,20 @@ section {
     padding: 2px 0;
   }
 }
+
+
+.product__details{
+  background-color: #e0d4af;
+ 
+border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.product__details h4{
+text-align: center;
+}
+
+ 
+ .product__details li{
+  font-size: 15px;
+ }
