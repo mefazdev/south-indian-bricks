@@ -159,6 +159,12 @@ h6 {
   transition: 0.3s;
   margin-left: 20px;
 }
+@media screen and (max-width: 768px) {
+  #topbar .social-links a {
+   
+    margin-left: 10px;
+  }
+}
 
 #topbar .social-links a:hover {
   color: white;
@@ -476,7 +482,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(1, 1, 1, 0.169);
+  background: rgba(1, 1, 1, 0.393);
   
   position: absolute;
   bottom: 0;
@@ -492,17 +498,14 @@ h6 {
 #hero h1 {
   color: #fff;
   margin: 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 50px;
   /* color: #222222; */
   font-family: "Poppins", sans-serif;
 }
 
-#hero h1 span {
-  /* color: #106eea; */
-}
-
+ 
 #hero h2 {
   color: #fff;
   /* color: #555555; */
@@ -563,6 +566,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  #top__mail{
+    display: none;
+    color: red;
+  }
   #hero {
     height: 100vh;
   }
